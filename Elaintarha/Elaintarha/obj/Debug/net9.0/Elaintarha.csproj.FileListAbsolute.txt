@@ -1,0 +1,15 @@
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\bin\Debug\net9.0\Elaintarha.exe
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\bin\Debug\net9.0\Elaintarha.deps.json
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\bin\Debug\net9.0\Elaintarha.runtimeconfig.json
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\bin\Debug\net9.0\Elaintarha.dll
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\bin\Debug\net9.0\Elaintarha.pdb
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\obj\Debug\net9.0\Elaintarha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\obj\Debug\net9.0\Elaintarha.AssemblyInfoInputs.cache
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\obj\Debug\net9.0\Elaintarha.AssemblyInfo.cs
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\obj\Debug\net9.0\Elaintarha.csproj.CoreCompileInputs.cache
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\obj\Debug\net9.0\Elaintarha.sourcelink.json
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\obj\Debug\net9.0\Elaintarha.dll
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\obj\Debug\net9.0\refint\Elaintarha.dll
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\obj\Debug\net9.0\Elaintarha.pdb
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\obj\Debug\net9.0\Elaintarha.genruntimeconfig.cache
+C:\Users\e2203027\source\repos\ElaintarhaProjekti\Elaintarha\Elaintarha\obj\Debug\net9.0\ref\Elaintarha.dll
