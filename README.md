@@ -1,4 +1,9 @@
-%% HAKUSANA: UML Class diagram (Mermaid)
+# ZooDemo
+
+Yksinkertainen eläintarhan hallintajärjestelmä C#:lla.  
+Alla UML-luokkakaavio (Mermaid), joka kuvaa ohjelman rakenteen.
+
+```mermaid
 classDiagram
     direction TB
 
@@ -59,16 +64,11 @@ classDiagram
         + ShowFliers() void
     }
 
-    %% Perintä
     Animal <|-- Lion
     Animal <|-- Parrot
     Animal <|-- Snake
 
-    %% Rajapinnan toteutus
     IFlyable <|.. Parrot
     IAnimalRepository <|.. InMemoryAnimalRepository
 
-    %% Riippuvuudet / käyttö
     ZooService --> IAnimalRepository : uses
-
-    %% (Valinnainen) ohjelman entry point ei ole luokka kaaviossa
