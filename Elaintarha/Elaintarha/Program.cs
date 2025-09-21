@@ -4,26 +4,26 @@ using System.Linq;
 
 namespace ZooDemo
 {
-    // --- Rajapinta (I) Interface Segregation Principle ---
+  
     public interface IFlyable
     {
         string Fly();
     }
 
-    // --- Abstrakti kantaluokka ---
+    
     public abstract class Animal
     {
-        // Kapselointi: yksityiset kentät
+        
         private string _name;
         private int _age;
 
         protected Animal(string name, int age)
         {
-            Name = name;  // käyttää validoivia settereitä
+            Name = name;  
             Age = age;
         }
 
-        // Julkiset ominaisuudet kontrolloiduilla settereillä
+        
         public string Name
         {
             get => _name;
@@ -46,11 +46,11 @@ namespace ZooDemo
             }
         }
 
-        // Abstrakti metodi: ääntely
+        
         public abstract string MakeSound();
     }
 
-    // --- Aliluokat (L, O) ---
+    
     public sealed class Lion : Animal
     {
         private readonly bool _isAlpha;
@@ -66,7 +66,7 @@ namespace ZooDemo
 
     public sealed class Parrot : Animal, IFlyable
     {
-        // Sanavarasto pidetään sisäisesti muokattavana, ulospäin read-only
+     
         private readonly List<string> _vocabulary = new();
         public IReadOnlyCollection<string> Vocabulary => _vocabulary.AsReadOnly();
 
@@ -98,15 +98,13 @@ namespace ZooDemo
         public override string MakeSound() => "Hiss";
     }
 
-    // --- D: Riippuvuuksien inversio + injektointi ---
-    // Abstraktio tallennukselle
+    
     public interface IAnimalRepository
     {
         void Add(Animal animal);
         IReadOnlyCollection<Animal> GetAll();
     }
 
-    // Yksinkertainen muistissa toimiva repo (toteutus voidaan vaihtaa ilman, että kuluttaja muuttuu)
     public sealed class InMemoryAnimalRepository : IAnimalRepository
     {
         private readonly List<Animal> _animals = new();
@@ -120,7 +118,7 @@ namespace ZooDemo
         public IReadOnlyCollection<Animal> GetAll() => _animals.AsReadOnly();
     }
 
-    // Korkeamman tason palvelu riippuu abstraktiosta (IAnimalRepository), ei konkreettisesta toteutuksesta.
+
     public sealed class ZooService
     {
         private readonly IAnimalRepository _repo;
@@ -152,7 +150,7 @@ namespace ZooDemo
         }
     }
 
-    // --- Demo-ohjelma (polymorfismi) ---
+
     internal static class Program
     {
         private static void Main()
